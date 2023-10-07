@@ -1,0 +1,50 @@
+.list-item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family: 'Roboto';
+}
+
+.time {
+  color: #475569;
+  margin-right: 40px;
+}
+
+.logo {
+  width: 20px;
+  height: 20px;
+  align-self: flex-start;
+  margin-top: 5px;
+  margin-right: auto;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: auto;
+  margin-left: 50px;
+}
+
+.title {
+  color: #475569;
+  margin-left: auto;
+}
+
+.domain-url {
+  color: #64748b;
+  margin-left: 20px;
+}
+
+.delete-icon {
+  display: flex;
+  align-self: flex-start;
+  width: 20px;
+  background-color: transparent;
+  border-style: none;
+  align-items: flex-end;
+  margin-top: 15px;
+}
